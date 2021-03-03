@@ -3,9 +3,10 @@ import Video from './Video';
 
 function App() {
   return (
-    <div className="App">
-      <h1>TikTok Clone</h1>
+    <div className="app">
       <div className="app__video">
+        <Video />
+        <Video />
         <Video />
         <Video />
       </div>
